@@ -1,0 +1,44 @@
+body{
+	background: #E9967A;
+	color: #000000;
+}
+#topic{
+	background: #E9967A;
+	width: 90%;
+	border: 2px solid white;
+	margin: 2em;
+	padding: 2em;
+}
+#topic-title{
+	color: yellow;
+}
+.comment{
+	width: 60%;
+	border: 2px solid white;
+	background: #E9967A;
+	margin: 2em;
+}
+#reply-bt{
+	background: yellow;
+	color: black;
+	width: 15%;
+	text-align: center;
+	transition:all .3s;
+	margin-left: 2em;
+
+}
+div#reply-bt {
+    color: white;
+    background: yellowgreen;
+    width: 20%;
+    height: 20%;
+}
+textarea {
+	border: 4px solid white;
+    background: #FF7F50;
+}
+#reply-bt:hover{
+	background: yellowgreen;
+	width: 20%;
+	height: 20%;
+}
